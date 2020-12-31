@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<launch>
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch" >
+	<arg name="world_name" value="$(find multi_robot)/worlds/singlePillar.world" />
+  </include>
+  
+  <include file="$(find gazebo_plugins)/test/multi_robot_scenario/launch/pioneer3dx.gazebo.launch">
+     <arg name="robot_name" value="r1" />
+     <arg name="robot_position" value="-x 0.0 -y -0.5 -z 0.01 -R 0 -P 0 -Y 0" />
+   </include>
+
+  <include file="$(find gazebo_plugins)/test/multi_robot_scenario/launch/pioneer3dx.gazebo.launch">
+     <arg name="robot_name" value="r2" />
+     <arg name="robot_position" value="-x 0.0 -y 0.5 -z 0.01 -R 0 -P 0 -Y 0" />
+   </include >
+  
+  <include file="$(find gazebo_plugins)/test/multi_robot_scenario/launch/pioneer3dx.gazebo.launch">
+     <arg name="robot_name" value="r3" />
+     <arg name="robot_position" value="-x 0.0 -y 1.5 -z 0.01 -R 0 -P 0 -Y 0" />
+   </include >
+
+  <include file="$(find gazebo_plugins)/test/multi_robot_scenario/launch/pioneer3dx.gazebo.launch">
+     <arg name="robot_name" value="r4" />
+     <arg name="robot_position" value="-x 0.0 -y 2.5 -z 0.01 -R 0 -P 0 -Y 0" />
+   </include >
+
+  <node pkg="tf" type="static_transform_publisher" name="base_to_odom_r1"
+     args="0.0 -0.0 0.0 0.0 0.0 0.0 base_link r1/odom 200" />
+
+  <node pkg="tf" type="static_transform_publisher" name="base_to_odom_r2"
+     args="0.0  0.0 0.0 0.0 0.0 0.0 base_link r2/odom 200" />
+  
+  <node pkg="tf" type="static_transform_publisher" name="base_to_odom_r3"
+     args="0.0  0.0 0.0 0.0 0.0 0.0 base_link r3/odom 200" />
+
+  <node pkg="tf" type="static_transform_publisher" name="base_to_odom_r4"
+     args="0.0  0.0 0.0 0.0 0.0 0.0 base_link r4/odom 200" />
+
+</launch>
