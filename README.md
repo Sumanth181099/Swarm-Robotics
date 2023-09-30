@@ -3,5 +3,9 @@ Mini Project where bug2 obstacle avoidance is implemented along with a simple fo
 You can find the details and the results in the report provided in the pdf form.
 
 
-https://github.com/Sumanth181099/Swarm-Robotics/assets/65185434/956975a6-857f-49d2-b29c-14eef9fd058d
+
+
+
+
+https://github.com/Sumanth181099/Swarm-Robotics/assets/65185434/73c87b21-46c4-4ff3-aaec-09ea242f7fa0
 
