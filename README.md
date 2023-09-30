@@ -11,10 +11,6 @@ You can find the details and the results in the report provided in the pdf form.
 
 
 
-
-
-
-
-https://github.com/Sumanth181099/Swarm-Robotics/assets/65185434/e1c4b2e0-7531-4922-964f-010b186c69cd
+For the obstacle avoidance demo video, click [here](https://drive.google.com/file/d/1hWWhgFlu15gcDPKaM-dPRAPZdPlm5u9g/view?usp=sharing).
 
 
