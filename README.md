@@ -10,5 +10,4 @@ You can find the details and the results in the report provided in the pdf form.
 ![Formation(1)(3)](https://github.com/Sumanth181099/Swarm-Robotics/assets/65185434/5f620040-b1ab-4a13-92ba-1c5d9b01ee01)
 
 
-https://github.com/Sumanth181099/Swarm-Robotics/assets/65185434/62c5665d-86bb-494a-b243-07771d3b8fcf
 
